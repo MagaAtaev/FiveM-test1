@@ -1,5 +1,13 @@
 {
     "Lua.diagnostics.disable": [
-        "undefined-global"
+        "undefined-global",
+        "lowercase-global",
+        "need-check-nil",
+        "redundant-parameter"
+    ],
+    "Lua.runtime.nonstandardSymbol": [
+        "`",
+        "+=",
+        "-="
     ]
 }
